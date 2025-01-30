@@ -12,9 +12,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3.Install these in your env
-conda create -n ragbot python=3.9
-conda activate ragbot
-conda install -c conda-forge faiss-cpu
+conda create -n ragbot python=3.9 , 
+
+conda activate ragbot , 
+
+conda install -c conda-forge faiss-cpu , 
+
 pip install scikit-learn
 
 4. Install dependencies:
